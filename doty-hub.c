@@ -2,7 +2,7 @@
 
 int main(){
     
-    printf("Beginning of Doty Hub");
+    printf("Beginning of Doty Hub: C\n");
 
     return 0;
 }
