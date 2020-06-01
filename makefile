@@ -4,8 +4,8 @@ TARGET = doty-hub
 
 all: $(TARGET)
 
-doty-hub: $(TARGET).cpp
-	$(CPP) $(CFLAGS) ${LDFLAGS} -o $(TARGET) $(TARGET).cpp
+doty-hub: $(TARGET).c
+	$(CC) $(CFLAGS) ${LDFLAGS} -o $(TARGET) $(TARGET).c
 
 .PHONY: clean
 clean:
