@@ -1,0 +1,4 @@
+allow_anonymous false
+connection_messages true
+max_connections -1
+port 1883
